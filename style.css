@@ -1,0 +1,77 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background: url(img/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p>img{
+ padding: 15px;
+ width: 90%;
+}
+
+.container{
+    margin: 5% auto;
+    border: 1px black solid;
+    width: 500px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.quadro {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: url(/img/luigi.png);
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: url(/img/mario.png);
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(255, 58, 58);
+    padding: 2px;
+    margin: 20px;
+    border: none;
+    box-shadow: 0 0 0.7em rgb(87, 104, 255);
+}
+
+#btn:hover {
+    background-color: rgb(35, 35, 161);
+}
+
+#btn:active {
+    box-shadow:none;
+}
