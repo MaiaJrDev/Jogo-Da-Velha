@@ -35,7 +35,7 @@ p>img{
 
 .o:after {
     position: absolute;
-    content: url(/img/luigi.png);
+    content: url(img/luigi.png);
     top: 10px;
     bottom: 0;
     left: 0;
@@ -48,7 +48,7 @@ p>img{
 
 .x:after {
     position: absolute;
-    content: url(/img/mario.png);
+    content: url(img/mario.png);
     top: 10px;
     bottom: 0;
     left: 0;
